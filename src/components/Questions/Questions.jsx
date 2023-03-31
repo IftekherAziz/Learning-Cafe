@@ -14,7 +14,7 @@ const Questions = () => {
 
   return (
     <div className="container my-5">
-      <div className="bg-dark p-sm-2 p-md-5 rounded">
+      <div className="bg-dark p-3 rounded">
         <p className="fs-2 my-3 text-white text-center">
           Questions and Answers:
         </p>
