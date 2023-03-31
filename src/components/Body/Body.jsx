@@ -1,4 +1,5 @@
 import Blogs from "../Blogs/Blogs";
+import Sidebar from "../Sidebar/Sidebar";
 
 const Body = () => {
 
@@ -6,6 +7,7 @@ const Body = () => {
     <div className="container-sm">
       <div className="row">
         <Blogs></Blogs>
+        <Sidebar></Sidebar>
       </div>
     </div>
   );
