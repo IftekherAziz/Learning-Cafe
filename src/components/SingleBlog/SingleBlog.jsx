@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 
 const SingleBlog = ({blog}) => {
+  
+  /* Destructuring the props. */
   const {author_name,blog_title,blog_image,author_image,read_time,published_date} = blog;
 
   return (
