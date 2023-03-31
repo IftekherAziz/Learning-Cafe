@@ -48,7 +48,7 @@ const SingleBlog = ({ blog, handlerReadTime, handlerBookmarks, blogTitles }) => 
                 }><FontAwesomeIcon icon={faBookmark} /></span> </p>
             </div>
           </div>
-          <h5 className="card-title fs-1 fw-bold my-3">{blog_title}</h5>
+          <h5 className="card-title fs-2 fw-bold my-3">{blog_title}</h5>
           <div className='my-3 fs-5 fw-bold' >
             <a onClick={() => handlerReadTime(read_time)} href="#">Mark as read</a>
           </div>
