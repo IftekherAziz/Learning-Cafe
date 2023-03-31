@@ -1,7 +1,8 @@
 import './App.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Header from './components/Header/Header'
-import 'react-toastify/dist/ReactToastify.css';
+import Body from './components/Body/Body';
+import "react-toastify/dist/ReactToastify.css";
 
 
 <style>
@@ -12,7 +13,8 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   return (
     <div className="App">
-      <Header></Header>     
+      <Header></Header> 
+      <Body></Body>    
     </div>
   )
 }
