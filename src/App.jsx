@@ -2,6 +2,7 @@ import './App.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Header from './components/Header/Header'
 import Body from './components/Body/Body';
+import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 
@@ -13,10 +14,11 @@ import "react-toastify/dist/ReactToastify.css";
 function App() {
   return (
     <div className="App">
-      <Header></Header> 
-      <Body></Body>    
+      <Header></Header>
+      <Body></Body>
+      <ToastContainer />
     </div>
-  )
+  );
 }
 
 export default App

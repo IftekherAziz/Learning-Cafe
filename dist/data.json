@@ -1,0 +1,56 @@
+[
+  {
+    "id": "425d9f1957d52634791b4b8",
+    "author_name": "John Doe",
+    "blog_title": "Introduction to programming languages",
+    "blog_image": "https://media.istockphoto.com/id/1404125129/photo/programming-code-abstract-technology-background-of-software-developer-and-computer-script.jpg?b=1&s=170667a&w=0&k=20&c=FC2JnaM2aJjvTYsmRHAqzM72CfHqF5UpLqdbWYlJ4gQ=",
+    "author_image": "https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "read_time": 12,
+    "published_date": "July, 2010 (13 years ago)"
+  },
+  {
+    "id": "4425d7f40e00c28237e8ca05",
+    "author_name": "Dr. Aziz Sancar",
+    "blog_title": "Data Structures and Algorithms",
+    "blog_image": "https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    "author_image": "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTR8fHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "read_time": 8,
+    "published_date": "March, 2020 (3 years ago)"
+  },
+  {
+    "id": "4425d7f49e9839c451f0047e",
+    "author_name": "Paul Barry",
+    "blog_title": "Head First Python: A Brain-Friendly Guide ",
+    "blog_image": "https://media.istockphoto.com/id/1424248629/photo/digital-technology-big-data-storage-digital-software-development-cyber-security-concept.jpg?b=1&s=170667a&w=0&k=20&c=Hmf60dA_iFYfuVdRx49QQuNxQfJga0SeXRM11LuMXE8=",
+    "author_image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzJ8fHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "read_time": 15,
+    "published_date": "June, 2012 (11 years ago)"
+  },
+  {
+    "id": "4425d7f4d80c3de69bea56a5",
+    "author_name": "Kyle Simpson",
+    "blog_title": "You Don't Know JS Yet: Get Started",
+    "blog_image": "https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "author_image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODF8fHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "read_time": 5,
+    "published_date": "December, 1999 (34 years ago)"
+  },
+  {
+    "id": "4425d7f468852e4628346b04",
+    "author_name": "Brian Goetz",
+    "blog_title": "Java Concurrency in Practice",
+    "blog_image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHByb2dyYW1taW5nJTIwbGFuZ3VhZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    "author_image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "read_time": 9,
+    "published_date": "April, 2016 (7 years ago)"
+  },
+  {
+    "id": "4425d7f484f0507b7efb3923",
+    "author_name": "David A. Black",
+    "blog_title": "The Well-Grounded Rubyist",
+    "blog_image": "https://images.unsplash.com/photo-1624020399372-ab7d8686b29f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fHByb2dyYW1taW5nJTIwbGFuZ3VhZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    "author_image": "https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "read_time": 20,
+    "published_date": "May, 2019 (4 years ago)"
+  }
+]
