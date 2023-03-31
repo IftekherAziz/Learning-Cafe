@@ -3,10 +3,16 @@ import "./SingleBlog.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 
-const SingleBlog = ({blog}) => {
-
-  /* Destructuring the props. */
-  const {author_name,blog_title,blog_image,author_image,read_time,published_date} = blog;
+const SingleBlog = ({ blog, handlerReadTime, handlerBookmarks }) => {
+  /* Destructuring the object. */
+  const {
+    author_name,
+    blog_title,
+    blog_image,
+    author_image,
+    read_time,
+    published_date,
+  } = blog;
 
   return (
     <div>
@@ -24,12 +30,12 @@ const SingleBlog = ({blog}) => {
                 <img
                   src={author_image}
                   className="card-img-top rounded-circle img-fluid"
-                  alt="author_image"
+                  alt="author_name"
                   style={{ height: "60px", width: "60px" }}
                 />
               </div>
               <div className="author-info d-flex flex-column">
-                <div className="author-name card-text fw-bolder fs-3">
+                <div className="author-name card-text fw-bolder fs-4">
                   <p>{author_name}</p>
                 </div>
                 <div className="release-date card-text">
@@ -43,18 +49,24 @@ const SingleBlog = ({blog}) => {
             </div>
             <div className="reading-time">
               <p className="card-text">
-                <small className="text-body-secondary fs-5">
+                <small className="text-body-secondary fs-4">
                   <span>{read_time}</span> mins read{" "}
                 </small>
-                <span>
+                <span
+                  className="cursor-pointer"
+                  onClick={() => {
+                    handlerBookmarks(blog_title);
+                    notify(blog_title);
+                  }}
+                >
                   <FontAwesomeIcon icon={faBookmark} />
                 </span>{" "}
               </p>
             </div>
           </div>
           <h5 className="card-title fs-1 fw-bold my-3">{blog_title}</h5>
-          <div className="fs-4">
-            <a href="#">
+          <div className="my-3 fs-4">
+            <a onClick={() => handlerReadTime(read_time)} href="#">
               Mark as read
             </a>
           </div>

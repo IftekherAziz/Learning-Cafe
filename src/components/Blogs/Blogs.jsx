@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import SingleBlog from "../SingleBlog/SingleBlog";
 
-const Blogs = () => {
+const Blogs = ({ handlerReadTime, handlerBookmarks, blogTitles }) => {
 
+  /* Setting the state of blogs to an empty array. */
   const [blogs, setBlogs] = useState([]);
 
-  /* Fetching data from the data.json file and setting the state of the blogs array to the data. */
+  /* Fetching data from the data.json file and setting the state of blogs to the data. */
   useEffect(() => {
     fetch("./data.json")
       .then((res) => res.json())
@@ -15,7 +16,13 @@ const Blogs = () => {
   return (
     <div className="col-md-8">
       {blogs.map((blog) => (
-        <SingleBlog blog={blog} key={blog.id}></SingleBlog>
+        <SingleBlog
+          blog={blog}
+          key={blog.id}
+          handlerReadTime={handlerReadTime}
+          handlerBookmarks={handlerBookmarks}
+          blogTitles={blogTitles}
+        ></SingleBlog>
       ))}
     </div>
   );

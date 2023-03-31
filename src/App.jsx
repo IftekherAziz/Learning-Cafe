@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 <style>
   @import
-  url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500&family=Poppins&display=swap');
+  url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500&display=swap');
 </style>;
 
 function App() {
