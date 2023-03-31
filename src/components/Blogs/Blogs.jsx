@@ -5,7 +5,7 @@ const Blogs = ({handlerReadTime, handlerBookmarks, blogTitles}) => {
 
   const [blogs, setBlogs] = useState([]);
 
-  /* Fetching data from a json file and setting the state of blogs to the data. */
+  /* Fetching data from data.json file and setting the state of blogs to the data. */
   useEffect(() => {
     fetch('./data.json')
       .then(res => res.json())

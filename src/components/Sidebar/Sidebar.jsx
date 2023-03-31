@@ -6,7 +6,7 @@ const Sidebar = ({ readTime, blogTitles, bookmarksCounter }) => {
     <div className="blogs col-md-4 my-4">
       <div className="spendTime text-center">
         <p className="py-3 fs-4 fw-bolder">
-          Spent time on read: <span className="fw-bolder">{readTime}</span>{" "}
+          Spent time on read: <span className="fw-bolder">{readTime} min</span>{" "}
         </p>
       </div>
       <div className="bookmarks p-sm-3 p-md-4">

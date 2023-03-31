@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "question": "Props vs state",
+    "answer": " A state is used to manage the data within it's internal component, while props are used to pass data from parent to child components. The state is mutable and local to a component, while props are immutable and can be accessed by child components."
+  },
+  {
+    "id": 2,
+    "question": "How does useState work?",
+    "answer": "The useState is a hook that allows us to add a state to a functional component. It takes an initial value as an argument and returns an array with two elements: (The current state value and A function to update the state). We can use useState to store and update the state in a functional component, without the need for a class component. "
+  },
+  {
+    "id": 3,
+    "question": "Purpose of useEffect other than fetching data",
+    "answer": "The useEffect is a react hook that allows us to perform side effects in a functional component. It takes a function as an argument, which is called after every render of the component. We use useEffect to fetch data, set up event listeners, or perform other side effects."
+  },
+  {
+    "id": 4,
+    "question": "How does React work?",
+    "answer": "React is a popular JavaScript library for building user interfaces. It was developed by Facebook and is now maintained by a community of developers. React provides a declarative and efficient way to build complex UI by breaking them down into smaller, reusable components. It works by using a virtual DOM (Document Object Model) to manage the state of the user interface, and then rendering changes to the real DOM as necessary. It also uses a synthetic event system to handle events in the browser. Overall it a powerful tool for building dynamic, responsive user interfaces."
+  }
+]

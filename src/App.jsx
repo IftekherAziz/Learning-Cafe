@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Body from './components/Body/Body';
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Questions from './components/Questions/Questions';
 
 
 <style>
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <Body></Body>
+      <Questions></Questions>
       <ToastContainer />
     </div>
   );
