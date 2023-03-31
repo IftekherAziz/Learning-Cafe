@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 
 const SingleBlog = ({blog}) => {
-  
+
   /* Destructuring the props. */
   const {author_name,blog_title,blog_image,author_image,read_time,published_date} = blog;
 
@@ -15,7 +15,7 @@ const SingleBlog = ({blog}) => {
           src={blog_image}
           className="card-img-top img-fluid object-fit-cover border rounded"
           style={{ height: "50vh" }}
-          alt="..."
+          alt="blog_image"
         />
         <div className="card-body">
           <div className="author d-flex justify-content-between align-items-center">
@@ -24,17 +24,17 @@ const SingleBlog = ({blog}) => {
                 <img
                   src={author_image}
                   className="card-img-top rounded-circle img-fluid"
-                  alt="asif"
-                  style={{ height: "50px", width: "50px" }}
+                  alt="author_image"
+                  style={{ height: "60px", width: "60px" }}
                 />
               </div>
               <div className="author-info d-flex flex-column">
-                <div className="author-name card-text fw-bolder fs-5">
+                <div className="author-name card-text fw-bolder fs-3">
                   <p>{author_name}</p>
                 </div>
                 <div className="release-date card-text">
                   <p className="card-text">
-                    <small className="text-body-secondary">
+                    <small className="text-body-secondary fs-5">
                       {published_date}
                     </small>
                   </p>
@@ -43,7 +43,7 @@ const SingleBlog = ({blog}) => {
             </div>
             <div className="reading-time">
               <p className="card-text">
-                <small className="text-body-secondary">
+                <small className="text-body-secondary fs-5">
                   <span>{read_time}</span> mins read{" "}
                 </small>
                 <span>
@@ -52,8 +52,8 @@ const SingleBlog = ({blog}) => {
               </p>
             </div>
           </div>
-          <h5 className="card-title fs-2 fw-bold my-3">{blog_title}</h5>
-          <div className="my-3">
+          <h5 className="card-title fs-1 fw-bold my-3">{blog_title}</h5>
+          <div className="fs-4">
             <a href="#">
               Mark as read
             </a>
